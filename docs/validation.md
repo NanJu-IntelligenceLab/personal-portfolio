@@ -8,7 +8,7 @@ Date: 2026-11-22 (Asia/Shanghai).
 - Playwright Chromium: 15 browser checks passed. Checks cover the project-site entry path; overflow at 320, 768, 1280 and 1440px with project details open; keyboard access and independent native disclosures; active navigation and header offsets; clipboard success and permission failure; use without JavaScript; reduced motion; local resources and anchors; and core publication/project facts.
 - axe-core WCAG 2 A/AA and 2.1 AA scans: no detected violations at 390px and 1440px with all project details open. Automated checks do not establish full accessibility conformance.
 - Screenshots reviewed at desktop and mobile sizes. A mobile line-break spacing issue was found during visual inspection and corrected before release.
-- Public website is approximately 55 KB uncompressed across its six files, with no external fonts, images, analytics or runtime dependencies. This is an asset-size observation, not a measured loading-time benchmark.
+- Public website is approximately 55 KB uncompressed across its seven files, with no external fonts, images, analytics or runtime dependencies. This is an asset-size observation, not a measured loading-time benchmark.
 - Source profile is Git-ignored; no personal proficiency ratings appear on the website. Future work is explicitly marked not implemented.
 
 ## Evidence
@@ -16,12 +16,23 @@ Date: 2026-11-22 (Asia/Shanghai).
 - [Desktop opening view](evidence/desktop.png), 1440 × 1000, captured from the live HTTPS site.
 - [Mobile opening view](evidence/mobile.png), 390 × 844, captured from the live HTTPS site.
 - Full-page and expanded-project screenshots remain local in `.artifacts/screenshots/`.
+- [Approved NJ brand reference](evidence/nj-brand.png), showing primary, reversed and favicon variants with actual small-size samples. Reusable SVGs and the usage guide are stored in [the brand directory](../brand/nj-monogram/README.md).
 
 ## Publication checks
 
 The IEEE URL is explicitly supplied by the owner and matches Crossref's registered primary URL for DOI 10.1109/BDAI66031.2025.11325235. Automated access to the IEEE page was restricted during planning. The title, author order and link association were verified through Crossref; independent access to the IEEE article text was not verified.
 
-## Deployment and online verification
+## Current deployment — approved NJ identity update
+
+- The owner selected direction A, Interwoven NJ, and explicitly requested publication and preservation for Version 2.
+- Published source commit: `b2b912a783dbca019dfa750dc422aa0541e24465`.
+- Successful workflow: https://github.com/NanJu-IntelligenceLab/personal-portfolio/actions/runs/45008221300.
+- All 15 browser checks passed locally and in GitHub CI. The new mark was visually checked at 28px and 38px, and the favicon at 16px and 32px.
+- All seven live files returned HTTP 200 and matched local source by SHA-256. Live desktop and 320px mobile headers loaded the new versioned SVG URL; the favicon reference resolves to the separate NJ tile asset. No mobile horizontal overflow was observed.
+- Master and deployed SVG copies were compared byte-for-byte. The primary, reversed and favicon assets share one font-independent path; the reusable source is `brand/nj-monogram/`.
+- Desktop and mobile evidence was recaptured from the deployed site. The website's personal facts and project content remain unchanged.
+
+## Initial deployment and online verification
 
 - Live Version 1: https://nanju-intelligencelab.github.io/personal-portfolio/ai-generated-page.html.
 - Repository: https://github.com/NanJu-IntelligenceLab/personal-portfolio.

@@ -52,3 +52,5 @@ Use README commands to preview and test. Keep the Version 1 release commit, scre
 ## Owner-approved NJ identity update — 2026-11-22
 
 After reviewing four vector directions, the owner selected A, Interwoven NJ, and requested publication and preservation for Version 2. Codex refined the shared N/J outline with thicker stems and balanced margins, used the transparent dark green symbol in the header, and created a separate high-contrast favicon tile. The master assets, reversed variant and usage guide are stored in `brand/nj-monogram/` independently of the website layout. No personal information or project claims were changed.
+
+Source commit `b2b912a783dbca019dfa750dc422aa0541e24465` was deployed successfully. Local and GitHub CI checks passed (15 each); the seven live files matched local source by SHA-256. Desktop/mobile headers and the new favicon reference were checked on the public site, and screenshot evidence was refreshed.
