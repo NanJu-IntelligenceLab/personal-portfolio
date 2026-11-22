@@ -48,3 +48,7 @@ Codex, HTML, CSS, JavaScript, Node.js local preview, Git, GitHub CLI, GitHub Act
 ## Reproduction and future comparison
 
 Use README commands to preview and test. Keep the Version 1 release commit, screenshots and validation record as experiment evidence. Preserve factual content in Version 2 while applying a separately supplied detailed human design specification. Compare design, functionality, development workflow and actual human involvement using recorded evidence.
+
+## Owner-approved NJ identity update — 2026-11-22
+
+After reviewing four vector directions, the owner selected A, Interwoven NJ, and requested publication and preservation for Version 2. Codex refined the shared N/J outline with thicker stems and balanced margins, used the transparent dark green symbol in the header, and created a separate high-contrast favicon tile. The master assets, reversed variant and usage guide are stored in `brand/nj-monogram/` independently of the website layout. No personal information or project claims were changed.

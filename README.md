@@ -36,6 +36,7 @@ To run the same checks against the deployed site, set `SITE_URL` to `https://nan
 - [Content baseline](docs/content-baseline.md): public facts and publication rules for reuse in Version 2.
 - [Development log](docs/development-log.md): human decisions, AI decisions and technical workflow.
 - [Validation record](docs/validation.md): actual checks, screenshots and remaining limitations.
+- [Reusable NJ brand assets](brand/nj-monogram/README.md): approved master SVGs, a dark-background variant, favicon and usage reference for Version 2.
 
 The original `profile.md` remains local and is excluded from Git. Its approved public content is represented in the HTML and the content baseline. No personal reflection or conclusions are generated for the coursework report.
 
