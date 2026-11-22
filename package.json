@@ -1,0 +1,20 @@
+{
+  "name": "nanju-personal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A static personal portfolio. Node dependencies are used only for development and verification.",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check site/assets/v1/main.js",
+    "test": "playwright test",
+    "capture": "node scripts/capture.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.65.1"
+  }
+}
