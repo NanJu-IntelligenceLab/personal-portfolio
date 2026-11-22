@@ -39,6 +39,8 @@ These choices represent human involvement in Version 1 and should be reported ac
 
 ## Tools
 
+The initial remote browser checks passed, but Pages deployment failed to discover the uploaded artifact. The workflow was updated from the starter template's older action references to current official releases, including the current Pages artifact uploader. Publication was then retried and checked separately from successful code verification.
+
 Codex, HTML, CSS, JavaScript, Node.js local preview, Git, GitHub CLI, GitHub Actions, GitHub Pages, Playwright and axe-core. Browser tools are development-only dependencies.
 
 ## Reproduction and future comparison
