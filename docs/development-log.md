@@ -41,6 +41,8 @@ These choices represent human involvement in Version 1 and should be reported ac
 
 The initial remote browser checks passed, but Pages deployment failed to discover the uploaded artifact. The workflow was updated from the starter template's older action references to current official releases, including the current Pages artifact uploader. Publication was then retried and checked separately from successful code verification.
 
+The updated workflow successfully published source commit `b571ce8ea570e3a2ce11f4dc8294b3c2895276ba`. All 15 checks passed again against the public URL. Live files were compared with local source using SHA-256, the uploaded archive was inspected, real clipboard access was exercised, and desktop/mobile evidence was recaptured from the deployed site. Final documentation-only changes do not modify the published website.
+
 Codex, HTML, CSS, JavaScript, Node.js local preview, Git, GitHub CLI, GitHub Actions, GitHub Pages, Playwright and axe-core. Browser tools are development-only dependencies.
 
 ## Reproduction and future comparison
